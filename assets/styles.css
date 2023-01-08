@@ -255,6 +255,17 @@ body {
 
 @media screen and (max-width: 585px)  {
    
+
+p.frase{
+
+font-size: 10px;    
+  }
+ .container {
+  overflow: hidden;
+ }
+  #circulo1 {
+    overflow: hidden;
+  }
   .circle:nth-of-type(3) {
 
     top: 5%;
