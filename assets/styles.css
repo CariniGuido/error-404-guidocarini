@@ -208,7 +208,13 @@ body {
 
 @media screen and (max-width: 942px) {
   
-  
+  .cita {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 40px;
+    
+  }
+
   .circle:nth-of-type(3) {
     
     top: 5%;
@@ -255,7 +261,18 @@ body {
 
 @media screen and (max-width: 585px)  {
    
+  
+  
+  .cita {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 40px;
+    
+  }
+.container {
 
+  width: 100%;
+}
 p.frase{
 
 font-size: 10px;    
@@ -264,8 +281,28 @@ font-size: 10px;
   overflow: hidden;
  }
   #circulo1 {
-    overflow: hidden;
+    top: 0;
+    left: 0;
+   
   }
+  #circulo2{
+    top: 0;
+    left: 0;
+   
+  }
+
+  #circulo3{
+    top: 0;
+    left: 0;
+   
+  }
+
+  #circulo4{
+    top: 0;
+    left: 0;
+   
+  }
+
   .circle:nth-of-type(3) {
 
     top: 5%;
@@ -300,6 +337,8 @@ font-size: 10px;
     background: -o-linear-gradient(140deg, rgba(255, 255, 255, 0) 30%, #322a8f 70%);
     background: linear-gradient(-50deg, rgba(255, 255, 255, 0) 30%, #322a8f 70%); }
   .reloj img {
+    top: 0;
+    left: 0;
     width: 100%; }
   .container p {
     overflow: hidden;
